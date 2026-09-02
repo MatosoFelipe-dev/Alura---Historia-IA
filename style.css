@@ -5,7 +5,7 @@
     --cor-principal: #134C54 ;
     --cor-secundaria: #014B43; 
     --cor-destaque: #3A7D87;
-    --cor-texto: #D7F9FF;
+    --cor-texto: #7FC9C9;
 }
 
 body {
@@ -16,6 +16,8 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
+    border: none;
+    border-radius: 15px;
 }
 
 .caixa-principal{
