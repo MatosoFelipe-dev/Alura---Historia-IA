@@ -1,4 +1,3 @@
-import {aleatorio, nome} from './aleatorio.js';
 import {perguntas} from './perguntas.js';
 
 const caixaPrincipal = document.querySelector(".caixa-principal");
@@ -59,7 +58,7 @@ function respostaSelecionada(opcaoSelecionada) {
 }
 
 function mostraResultado() {
-    caixaPerguntas.textContent = `Com Sucesso, ${nome}`;
+    caixaPerguntas.textContent = `Com Sucesso, RLM`;
     textoResultado.textContent = historiaFinal;
     caixaAlternativas.textContent = "";
     caixaResultado.classList.add("mostrar");
@@ -72,11 +71,3 @@ function jogaNovamente(){
     caixaResultado.classList.remove("mostrar");
     mostraPergunta();
 }
-
-function substituiNome(){
-    for(const pergunta of perguntas){
-        pergunta.enunciado = pergunta.enunciado.replace(/você/g, nome);
-    }
-}
-
-substituiNome();
