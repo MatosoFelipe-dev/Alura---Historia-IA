@@ -6,41 +6,41 @@ const textoResultado = document.querySelector(".texto-resultado");
 
 const perguntas = [
     {
-        enunciado: "Assim que saiu da escola você se depara com uma nova tecnologia, um chat que consegue responder todas as dúvidas que uma pessoa pode ter, ele também gera imagens e áudios hiper-realistas. Qual o primeiro pensamento?",
+        enunciado: "Você examina o quarto da viscondessa. Não há sinais de luta, ferimentos ou arrombamento. O corpo está deitado na cama, sem hematomas, mas com uma coloração rosada incomum na pele. A lareira estava acesa quando a encontraram.",
         alternativas: [
             {
-                texto: "Isso é assustador!",
+                texto: "Procurar por marcas de perfuração de agulhas nos braços.",
                 afirmacao: "No início ficou com medo do que essa tecnologia pode fazer."
             },
             {
-                texto: "Isso é maravilhoso!",
+                texto: "Procurar por cálices de vinho batizados no criado-mudo.",
                 afirmacao: "Quis saber como usar IA no seu dia a dia."
             }           
             
         ]
     },
     {
-        enunciado: "Com a descoberta desta tecnologia, chamada Inteligência Artificial (IA), uma professora de tecnologia da escola decidiu fazer uma sequência de aulas sobre elaIA. No fim de uma aula ela pede que você escreva um trabalho sobre o uso de tecnologia em sala de aula. Qual atitude você toma?",
+        enunciado: "Questionando o gabinete do castelo, você reúne os seis nomes presentes no palácio na noite do crime: Alden (o mordomo), Beatriz (a camareira), Caelen (o cocheiro), Daria (a cozinheira), Elian (o mensageiro atual) e Flora (a botânica real). Beatriz demonstra um nervosismo sutil ao mencionar a manutenção da lareira.",
         alternativas: [
             {
-                texto:"Utilizar uma ferramenta de busca na internet que utiliza IA para que ela ajude a encontrar informações relevantes para o trabalho e explique numa linguagem que facilite o entendimento",
+                texto:"Interrogar Alden sobre a compra de venenos raros na farmácia.",
                 afirmacao:"Conseguiu utilizar a IA para buscar informações úteis."
             },
             {
-                texto: "Escrever o trabalho com base nas conversas que teve com colegas, algumas pesquisas na internet e conhecimentos próprios sobre o tema.",
+                texto: "Pressionar Flora sobre plantas tóxicas no jardim privado.",
                 afirmacao:"Sentiu mais facilidade em utilizar seus próprios recursos para escrever seu trabalho."
             }
         ]
     },
     {
-        enunciado: "Após a elaboração do trabalho, a professora realizou um debate entre a turma para entender como foi realizada a pesquisa e escrita. Nessa conversa também foi levantado um ponto muito importante: como a IA impacta o trabalho do futuro. Nesse debate, como você se posiciona?",
+        enunciado: "Ao inspecionar a chaminé a fundo, você descobre que a saída de ar foi propositalmente vedada por dentro com trapos densos antes do fogo ser aceso, fazendo com que o gás invisível e inodoro se acumulasse no quarto lacrado.",
         alternativas: [
             {
-                texto:"Me preocupo com as pessoas que perderão seus empregos para máquinas e defendem a importância de proteger os trabalhadores.",
+                texto:"Concluir que usaram um pó mágico de envenenamento pelo ar.",
                 afirmacao:"Vem impulsionando a inovação na área de IA e luta para abrir novos caminhos profissionais com IA."
             },
             {
-                texto:"Defende a ideia de que a IA pode criar novas oportunidades de emprego e melhorar habilidades humanas.",
+                texto:"Buscar frascos de gás cianeto escondidos na cozinha de Daria.",
                 afirmacao:"Sua preocupação com as pessoas motivou a criar um grupo de estudos entre trabalhadores para discutir meios de utilização de IA de forma ética."
             }
             
