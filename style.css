@@ -11,7 +11,6 @@
 body {
     background-color: var(--cor-fundo);
     color: var(--cor-texto);
-    border-radius: 15px;
     font-family: 'Inter', sans-serif;
     display: flex;
     justify-content: center;
@@ -22,7 +21,7 @@ body {
 .caixa-principal{
     background-color: var(--cor-principal);
     width: 90%;
-    max-width: 800px;
+    max-width: 200px;
     text-align: center;
     padding: 20px;
 }
