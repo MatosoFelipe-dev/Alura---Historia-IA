@@ -3,16 +3,14 @@
 :root{
     --cor-fundo: #022C33 ;
     --cor-principal: #134C54 ;
-    --cor-secundaria: #7FC9C9; 
-    --cor-destaque: #3A7D87;
-    --cor-texto: #DEFCFC;
+    --cor-secundaria: #3A7D87; 
+    --cor-destaque: #7FC9C9;
+    --cor-texto: #C7F2F2;
 }
 
 body {
     background-color: var(--cor-fundo);
     color: var(--cor-texto);
-    border: none;
-    border-radius: 15px;
     font-family: 'Inter', sans-serif;
     display: flex;
     justify-content: center;
