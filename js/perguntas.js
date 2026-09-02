@@ -1,6 +1,6 @@
 export const perguntas = [
     {
-        enunciado: "Você desembarca no Castelo de Névoa Real sob uma névoa espessa. O Mordomo Klaus o recebe na entrada e indica por onde você pode começar sua varredura inicial na propriedade.",
+        enunciado: "Você desembarca no Castelo de Aukstā sob uma névoa espessa. O Mordomo Klaus o recebe na entrada e indica por onde você pode começar sua varredura inicial na propriedade.",
         alternativas: [
             {
                 texto: "Dirigir-se imediatamente aos aposentos da viscondessa para isolar o local do crime.",
